@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #121217;
+  --color-ink-soft: #17171e;
+  --color-surface: #1b1b24;
+  --color-surface-2: #22222c;
+  --color-line: #2b2b37;
+  --color-cream: #f3f2f7;
+  --color-muted: #9997a8;
+  --color-muted-2: #6f6d80;
+  --color-purple: #7c5cff;
+  --color-purple-dim: #6647e0;
+  --color-gold: #f2a93b;
+  --color-teal: #33d6a6;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-surface: var(--color-surface);
+  --color-surface-2: var(--color-surface-2);
+  --color-line: var(--color-line);
+  --color-cream: var(--color-cream);
+  --color-muted: var(--color-muted);
+  --color-muted-2: var(--color-muted-2);
+  --color-purple: var(--color-purple);
+  --color-purple-dim: var(--color-purple-dim);
+  --color-gold: var(--color-gold);
+  --color-teal: var(--color-teal);
+
+  --font-display: "Space Grotesk", ui-sans-serif, sans-serif;
+  --font-body: "Inter", ui-sans-serif, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-ink);
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-cream);
+}
+
+::selection {
+  background: var(--color-purple);
+  color: white;
+}
+
+.bg-dotgrid {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.06) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
