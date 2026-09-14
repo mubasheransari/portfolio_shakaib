@@ -36,11 +36,24 @@
 
 html {
   background: var(--color-ink);
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   background: var(--color-ink);
   color: var(--color-cream);
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+img,
+svg,
+video,
+pre,
+table {
+  max-width: 100%;
 }
 
 ::selection {

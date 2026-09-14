@@ -16,20 +16,20 @@ export default function Hero() {
       />
 
       <div className="mx-auto grid max-w-6xl gap-16 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8">
-        <div>
+        <div className="min-w-0">
           <span className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-4 py-1.5 text-xs font-medium tracking-wide text-gold">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
             Available for hire · {profile.location}
           </span>
 
-          <h1 className="text-balance mt-6 font-display text-4xl font-semibold leading-[1.1] tracking-tight text-cream sm:text-5xl lg:text-[3.2rem]">
+          <h1 className="text-balance mt-6 break-words font-display text-4xl font-semibold leading-[1.1] tracking-tight text-cream sm:text-5xl lg:text-[3.2rem]">
             I build <span className="text-purple">enterprise platforms</span>,
             <br />
             <span className="text-gold">REST APIs</span> & scalable web
             experiences.
           </h1>
 
-          <p className="mt-6 max-w-xl text-balance text-base leading-7 text-muted sm:text-lg">
+          <p className="mt-6 max-w-xl text-balance break-words text-base leading-7 text-muted sm:text-lg">
             {profile.summary}
           </p>
 
@@ -73,11 +73,11 @@ export default function Hero() {
 
           <dl className="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-4">
             {stats.map((s) => (
-              <div key={s.label}>
+              <div key={s.label} className="min-w-0">
                 <dt className="font-mono text-2xl font-semibold text-cream sm:text-3xl">
                   {s.value}
                 </dt>
-                <dd className="mt-1 text-xs leading-snug text-muted-2">
+                <dd className="mt-1 text-xs leading-snug text-muted-2 break-words">
                   {s.label}
                 </dd>
               </div>
@@ -85,7 +85,9 @@ export default function Hero() {
           </dl>
         </div>
 
-        <CodeCard />
+        <div className="min-w-0">
+          <CodeCard />
+        </div>
       </div>
     </section>
   );
