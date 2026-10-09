@@ -21,7 +21,7 @@ export const focusAreas = [
   {
     title: "Frontend Development",
     description:
-      "Responsive, accessible interfaces built with React.js, JavaScript (ES6+), Bootstrap and Blade — tuned for real-world usability.",
+      "Responsive, accessible interfaces built with React.js, JavaScript (ES6+), Bootstrap and Blade - tuned for real-world usability.",
     tags: ["React.js", "JavaScript", "Bootstrap", "Blade"],
   },
   {
@@ -33,7 +33,7 @@ export const focusAreas = [
   {
     title: "Payments & Integrations",
     description:
-      "Secure payment and messaging integrations — Stripe, PayPal, CyberSource with 3D Secure, Twilio, SendGrid, and OneSignal.",
+      "Secure payment and messaging integrations - Stripe, PayPal, CyberSource with 3D Secure, Twilio, SendGrid, and OneSignal.",
     tags: ["Stripe", "PayPal", "CyberSource", "Twilio"],
   },
 ];
@@ -92,7 +92,7 @@ export const experience = [
   {
     role: "Software Developer",
     company: "Contour Software",
-    period: "May 2024 — Present",
+    period: "May 2024 - Present",
     points: [
       "Build and maintain enterprise .NET Core applications covering REST APIs, authentication workflows, admin dashboards, and backend services serving large user bases.",
       "Resolve high-priority production issues through systematic root-cause analysis and code refactoring, reducing recurring defects by ~30% and improving system reliability.",
@@ -104,7 +104,7 @@ export const experience = [
   {
     role: "LLM - PHP/JS Developer",
     company: "Turing (Remote)",
-    period: "Nov 2024 — Mar 2025",
+    period: "Nov 2024 - Mar 2025",
     points: [
       "Engineered and fine-tuned large language models using SFT and RLHF, developing deep insight into AI-driven product development and data-driven reasoning systems.",
       "Designed complex multi-step task flows and scenario-based datasets to improve real-world model reasoning and decision-making, collaborating with cross-functional AI experts globally.",
@@ -113,9 +113,9 @@ export const experience = [
   {
     role: "Senior Software Engineer",
     company: "Cooperative Computing",
-    period: "Apr 2021 — May 2024",
+    period: "Apr 2021 - May 2024",
     points: [
-      "Led a team of 10 software engineers for 18+ months — sprint planning, code reviews, task allocation, technical mentorship, and direct communication with international stakeholders.",
+      "Led a team of 10 software engineers for 18+ months - sprint planning, code reviews, task allocation, technical mentorship, and direct communication with international stakeholders.",
       "Designed and delivered full-stack features across Laravel (PHP) and .NET Core (C#) platforms, including e-commerce flows, payment gateway integrations (Stripe, PayPal, CyberSource), and enterprise dashboards.",
       "Architected multi-tenant enterprise solutions using EF Core Query Filters and custom middleware, enabling centralised management of multiple client environments.",
       "Executed migration of 1M+ records with zero data loss and full business continuity, leveraging robust validation and rollback procedures.",
@@ -126,7 +126,7 @@ export const experience = [
   {
     role: "Software Engineer",
     company: "Cybarea Pvt. Ltd.",
-    period: "Dec 2019 — Mar 2021",
+    period: "Dec 2019 - Mar 2021",
     points: [
       "Converted 30+ legacy SOAP endpoints to RESTful APIs, modernising system integrations and improving reliability and developer experience.",
       "Built 3 automation modules for DIDX.Net that increased telecom sales team operational efficiency by ~40%.",
@@ -215,7 +215,7 @@ export const projects = [
     title: "CampSite",
     tag: "SaaS · Camp Management · USA",
     description:
-      "Automated SaaS camp management platform for day and overnight camps across North America — registration, parent dashboards, scheduling, billing, and myCAMPapp's companion mobile backend.",
+      "Automated SaaS camp management platform for day and overnight camps across North America - registration, parent dashboards, scheduling, billing, and myCAMPapp's companion mobile backend.",
     stack: ["Core PHP", ".NET Core", "Angular", "MySQL", "SQL Server"],
     accent: "purple",
   },
@@ -223,7 +223,7 @@ export const projects = [
     title: "Comvita",
     tag: "E-Commerce · New Zealand",
     description:
-      "Full e-commerce platform for a major NZ brand — product pages, checkout, and order management. Progressed from developer to Project Lead, managing a 10-person team.",
+      "Full e-commerce platform for a major NZ brand - product pages, checkout, and order management. Progressed from developer to Project Lead, managing a 10-person team.",
     stack: ["Laravel", "PHP", "JavaScript", "MySQL", "Stripe"],
     accent: "gold",
   },

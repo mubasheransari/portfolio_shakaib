@@ -10,9 +10,9 @@ import "@fontsource/jetbrains-mono/500.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Muhammad Shakaib — Senior Software Engineer",
+  title: "Muhammad Shakaib - Senior Software Engineer",
   description:
-    "Muhammad Shakaib — Senior Full Stack Software Engineer specialising in PHP/Laravel, C#/.NET Core and React.js. 6+ years, led a 10-engineer team, delivered enterprise platforms for clients in New Zealand, Canada and the USA.",
+    "Muhammad Shakaib - Senior Full Stack Software Engineer specialising in PHP/Laravel, C#/.NET Core and React.js. 6+ years, led a 10-engineer team, delivered enterprise platforms for clients in New Zealand, Canada and the USA.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
