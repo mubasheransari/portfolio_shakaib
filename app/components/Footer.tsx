@@ -5,8 +5,7 @@ export default function Footer() {
     <footer className="border-t border-line py-8">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 text-center sm:flex-row sm:justify-between sm:text-left lg:px-8">
         <p className="text-xs text-muted-2">
-          © {new Date().getFullYear()} {profile.name}. Built with Next.js &
-          Tailwind.
+          © {new Date().getFullYear()} {profile.name}. All rights reserved.
         </p>
         <a
           href="#home"

@@ -1,14 +1,14 @@
 export const profile = {
   name: "Muhammad Shakaib",
   role: "Senior Software Engineer",
-  tagline: "PHP / Laravel · C# / .NET Core · React.js · REST APIs",
+  tagline: "PHP / Laravel · C# / .NET Core · React.js · Angular · REST APIs",
   location: "Worldwide",
   phone: "+92 335 2792032",
   email: "mohammadshakaib96@gmail.com",
   linkedin: "https://linkedin.com/in/muhammad-shakaib",
   resumeFile: "/Muhammad_Shakaib_Senior_Software_Engineer.pdf",
   summary:
-    "Results-driven Full Stack Software Engineer with 6+ years of experience building scalable, high-performing enterprise applications used by millions of users. Proficient across PHP/Laravel and actively expanding into C#/.NET Core, with hands-on production experience in both stacks. Proven track record in REST API design, React.js frontend development, CI/CD pipelines and Agile delivery. Led a team of 10 engineers for 18+ months and delivered solutions for international clients across New Zealand, Canada, and the USA.",
+    "Results-driven Full Stack Software Engineer with 6+ years of experience building scalable, high-performing enterprise applications used by millions of users. Proficient across PHP/Laravel and actively expanding into C#/.NET Core, with hands-on production experience in both stacks. Proven track record in REST API design, React.js & Angular frontend development, CI/CD pipelines and Agile delivery. Led a team of 10 engineers for 18+ months and delivered solutions for international clients across New Zealand, Canada, and the USA.",
 };
 
 export const focusAreas = [
@@ -21,8 +21,8 @@ export const focusAreas = [
   {
     title: "Frontend Development",
     description:
-      "Responsive, accessible interfaces built with React.js, JavaScript (ES6+), Bootstrap and Blade - tuned for real-world usability.",
-    tags: ["React.js", "JavaScript", "Bootstrap", "Blade"],
+      "Responsive, accessible interfaces built with React.js & Angular, JavaScript (ES6+), Bootstrap and Blade - tuned for real-world usability.",
+    tags: ["React.js", "Angular", "JavaScript", "Bootstrap", "Blade"],
   },
   {
     title: "Multi-Tenant SaaS Architecture",
@@ -52,9 +52,9 @@ export const services = [
       "REST API design and enterprise backend services in PHP/Laravel and C#/.NET Core, built on clean MVC and Repository patterns.",
   },
   {
-    title: "React.js Frontend Development",
+    title: "React.js & Angular Frontend Development",
     description:
-      "Responsive, accessible React.js interfaces with JavaScript (ES6+), Bootstrap, jQuery and ARIA/WCAG-compliant markup.",
+      "Responsive, accessible interfaces in React.js and Angular, built with modern JavaScript (ES6+), Bootstrap and ARIA/WCAG best practices.",
   },
   {
     title: "Multi-Tenant SaaS Architecture",
@@ -94,7 +94,7 @@ export const experience = [
     company: "Contour Software",
     period: "May 2024 - Present",
     points: [
-      "Build and maintain enterprise .NET Core applications covering REST APIs, authentication workflows, admin dashboards, and backend services serving large user bases.",
+      "Build and maintain enterprise .NET Core applications covering REST APIs, authentication workflows, admin dashboards built on Angular, and backend services serving large user bases.",
       "Resolve high-priority production issues through systematic root-cause analysis and code refactoring, reducing recurring defects by ~30% and improving system reliability.",
       "Implement accessibility improvements adhering to WCAG standards using JavaScript, Bootstrap, and ARIA, improving usability across diverse user groups.",
       "Optimise database queries, API endpoints, and caching strategies, achieving measurable reductions in page load times (~15%) for high-traffic enterprise deployments.",
@@ -151,6 +151,7 @@ export const skillGroups = [
       "Laravel 8 & 9",
       ".NET Core / ASP.NET Core",
       "React.js",
+      "Angular",
       "Entity Framework Core",
     ],
   },
@@ -158,6 +159,7 @@ export const skillGroups = [
     label: "Frontend",
     skills: [
       "React.js",
+      "Angular",
       "JavaScript (ES6+)",
       "Bootstrap",
       "jQuery",
@@ -299,5 +301,5 @@ export const nav = [
   { label: "Services", href: "#services" },
   { label: "Resume", href: "#resume" },
   { label: "Portfolio", href: "#portfolio" },
-  { label: "Contact", href: "#contact" },
+  // { label: "Contact", href: "#contact" },
 ];
