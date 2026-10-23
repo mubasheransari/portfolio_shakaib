@@ -87,9 +87,9 @@ export default function Contact() {
                 >
                   LinkedIn
                 </a>
-                <span className="rounded-full border border-line px-4 py-2 text-xs text-muted">
+                {/* <span className="rounded-full border border-line px-4 py-2 text-xs text-muted">
                   GitHub
-                </span>
+                </span> */}
               </div>
             </div>
           </div>

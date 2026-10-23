@@ -3,8 +3,8 @@ import { profile } from "../data/resume";
 const facts = [
   { label: "Role", value: profile.role },
   { label: "Based in", value: profile.location },
-  { label: "Focus", value: "PHP/Laravel · C#/.NET · React.js" },
-  { label: "Status", value: "Open to Malaysia relocation" },
+  { label: "Focus", value: "PHP/Laravel · C#/.NET · React.js & Angular" },
+  { label: "Status", value: "Open to relocation" },
 ];
 
 export default function About() {
@@ -21,8 +21,8 @@ export default function About() {
             <p className="mt-6 text-base leading-7 text-muted">
               I&apos;m {profile.name}, a full stack software engineer based
               in Karachi. I design, build and ship backend services and REST
-              APIs in PHP/Laravel and C#/.NET Core, paired with React.js
-              frontends — with hands-on production experience architecting
+              APIs in PHP/Laravel and C#/.NET Core, paired with React.js & Angular
+              frontends - with hands-on production experience architecting
               multi-tenant SaaS platforms, payment integrations, and
               high-traffic enterprise systems.
             </p>

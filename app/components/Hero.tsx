@@ -34,7 +34,7 @@ export default function Hero() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">
-            {["PHP / Laravel", "C# / .NET Core", "React.js", "REST APIs"].map(
+            {["PHP / Laravel", "C# / .NET Core", "React.js", "Angular", "REST APIs"].map(
               (tag) => (
                 <span
                   key={tag}
@@ -128,6 +128,7 @@ function CodeCard() {
             <span className="text-gold">&quot;Laravel&quot;</span>,{" "}
             <span className="text-gold">&quot;.NET Core&quot;</span>,{"\n    "}
             <span className="text-gold">&quot;React.js&quot;</span>,{" "}
+            <span className="text-gold">&quot;Angular&quot;</span>,{" "}
             <span className="text-gold">&quot;MySQL&quot;</span>,{"\n  "}
             {"}"};
             {"\n\n  "}
@@ -141,7 +142,7 @@ function CodeCard() {
 
         <div className="flex items-center justify-between border-t border-line bg-surface-2 px-5 py-3">
           <span className="font-mono text-xs text-muted-2">
-            build — succeeded
+            build - succeeded
           </span>
           <span className="inline-flex items-center gap-1.5 text-xs text-teal">
             <span className="h-1.5 w-1.5 rounded-full bg-teal" />
